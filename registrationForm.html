@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<style>
+    body{
+        background-image: url("bk.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .box{
+        width:300px;
+        height: 450px;
+        padding: 20px;
+        background:transparent;
+        margin: 100px auto;
+        box-shadow: 0px 0px 10px 2px grey;
+        text-align: center;
+    }
+    .input-group{
+        top: 180px;
+        position: absolute;
+        width: 280px;
+    }
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: whitesmoke;
+    text-align: center;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linen;
+    border:0;
+    outline: none;
+}
+</style>
+<body>
+    <div class="box">
+        <form class="input-group">
+            <label for="fname">First name: </label>
+            <input type="text" class="input-field" placeholder="Enter your name" ><br><br>
+            <label for="fname">Email-Id: </label>
+            <input type="text" class="input-field" placeholder="Email-Id"><br><br>
+            <label for="fname">Phone No: </label>
+            <input type="text" class="input-field" placeholder="Enter your phone no: " ><br><br>
+            <button type="submit" class="submit-btn">submit</button>
+          </form> 
+    </div>
+</body>
+</html>
